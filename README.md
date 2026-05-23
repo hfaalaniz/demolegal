@@ -58,8 +58,8 @@ git clone https://github.com/hfaalaniz/demolegal.git
 ## 📍 Contacto del estudio
 
 - **Dirección:** Arturo M. Bas N° 373, 1° piso, Of. 9 – Córdoba, Argentina
-- **Email:** estudiojuridicovallesyasoc@gmail.com
-- **Instagram:** [@estudiojuridicovalles.abogados](https://instagram.com)
+- **Email:** estudiojuridico@gmail.com
+- **Instagram:** [@estudiojuridico.abogados](https://instagram.com)
 
 ---
 
