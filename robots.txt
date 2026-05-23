@@ -1,0 +1,30 @@
+# =====================================================
+# robots.txt — Abogados & Asociados – Estudio Jurídico
+# Córdoba, Argentina
+# =====================================================
+ 
+# Permitir todos los motores de búsqueda principales
+User-agent: *
+Allow: /
+ 
+# Bloquear recursos que no aportan valor SEO
+Disallow: /404
+Disallow: /*.json$
+ 
+# Google (prioridad alta)
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 5
+ 
+# Google Imágenes
+User-agent: Googlebot-Image
+Allow: /
+ 
+# Bing / Microsoft
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 10
+ 
+# Referencia al sitemap principal
+Sitemap: https://demolegal.pages.dev/sitemap.xml
+ 

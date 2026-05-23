@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xsi:schemaLocation="
+    http://www.sitemaps.org/schemas/sitemap/0.9
+    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+    http://www.google.com/schemas/sitemap-image/1.1
+    http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+
+  <url>
+    <loc>https://demolegal.pages.dev/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1589578527966-fdac0f44566c?w=1600</image:loc>
+      <image:title>Abogados &amp; Asociados – Estudio Jurídico en Córdoba, Argentina</image:title>
+      <image:caption>Estudio jurídico especializado en Derecho de Familia, Laboral, Penal y Sucesorio. Córdoba, Argentina.</image:caption>
+    </image:image>
+  </url>
+
+</urlset>
