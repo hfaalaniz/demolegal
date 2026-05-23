@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Abogados & Asociados – Estudio Jurídico. Derecho de Familia, Laboral, Penal y más. Córdoba, Argentina." />
+  <title>Abogados & Asociados – Estudio Jurídico</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- SVG Sprite (inline, hidden) -->
+  <div aria-hidden="true" style="display:none" id="svgSprite"></div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#inicio" class="nav-logo">
+        <svg class="nav-logo-icon ico"><use href="icons.svg#ico-scales"/></svg>
+        <span class="nav-logo-text">ABOGADOS <span class="amp">&</span> ASOCIADOS</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#que-hacemos">Servicios</a></li>
+        <li><a href="#valores">Nosotros</a></li>
+        <li><a href="#agenda" class="nav-cta">Agendá tu turno</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-logo-wrap">
+        <svg class="hero-scale-icon ico"><use href="icons.svg#ico-scales"/></svg>
+        <h1 class="hero-firm">ABOGADOS <span class="amp">&</span><br>ASOCIADOS</h1>
+        <p class="hero-subtitle">ESTUDIO JURÍDICO</p>
+      </div>
+      <div class="hero-divider"></div>
+      <p class="hero-eslogan"><em>Soluciones legales,<br>confianza que respalda.</em></p>
+    </div>
+    <div class="hero-scroll"><div class="scroll-dot"></div></div>
+  </section>
+
+  <!-- ===== QUÉ HACEMOS ===== -->
+  <section class="que-hacemos" id="que-hacemos">
+    <div class="container">
+      <div class="section-eyebrow">
+        <svg class="eyebrow-icon ico"><use href="icons.svg#ico-user"/></svg>
+        <h2 class="eyebrow-title">¿QUÉ HACEMOS?</h2>
+      </div>
+      <p class="qh-intro">
+        Brindamos asesoramiento y representación legal integral, con compromiso, ética y excelencia profesional.
+      </p>
+
+      <div class="qh-grid">
+        <ul class="areas-list" id="areasList">
+          <li class="area-item" data-area="familia">
+            <svg class="check-gold ico"><use href="icons.svg#ico-check"/></svg>
+            <span class="area-label">DERECHO DE FAMILIA</span>
+            <svg class="area-arrow ico"><use href="icons.svg#ico-arrow-right"/></svg>
+          </li>
+          <li class="area-item" data-area="sucesorio">
+            <svg class="check-gold ico"><use href="icons.svg#ico-check"/></svg>
+            <span class="area-label">DERECHO SUCESORIO</span>
+            <svg class="area-arrow ico"><use href="icons.svg#ico-arrow-right"/></svg>
+          </li>
+          <li class="area-item" data-area="laboral">
+            <svg class="check-gold ico"><use href="icons.svg#ico-check"/></svg>
+            <span class="area-label">DERECHO LABORAL</span>
+            <svg class="area-arrow ico"><use href="icons.svg#ico-arrow-right"/></svg>
+          </li>
+          <li class="area-item" data-area="penal">
+            <svg class="check-gold ico"><use href="icons.svg#ico-check"/></svg>
+            <span class="area-label">DERECHO PENAL</span>
+            <svg class="area-arrow ico"><use href="icons.svg#ico-arrow-right"/></svg>
+          </li>
+        </ul>
+        <div class="area-detail" id="areaDetail"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AGENDA / RESERVA DE TURNO ===== -->
+  <section class="agenda" id="agenda">
+    <div class="agenda-img-bg"></div>
+    <div class="agenda-img-overlay"></div>
+
+    <div class="container agenda-inner">
+
+      <div class="agenda-info">
+        <div class="agenda-eyebrow">
+          <svg class="ico ico-sm"><use href="icons.svg#ico-calendar"/></svg>
+          <span>AGENDA ABIERTA</span>
+        </div>
+        <h2 class="agenda-title">¡AGENDA<br>ABIERTA!</h2>
+        <p class="agenda-desc">Estamos listos para ayudarte. Reservá tu consulta inicial de forma rápida y sin compromiso.</p>
+
+        <div class="agenda-chips">
+          <span class="agenda-chip">Lun–Vie  9:00–18:00</span>
+          <span class="agenda-chip">Sábados  9:00–13:00</span>
+          <span class="agenda-chip online">Virtual disponible</span>
+        </div>
+
+        <div class="agenda-contacts">
+          <a href="https://wa.me/543516018329" class="agenda-whatsapp" target="_blank" rel="noopener">
+            <svg class="ico"><use href="icons.svg#ico-whatsapp"/></svg>
+            Abogado 1 · 351 601-8329
+          </a>
+          <a href="https://wa.me/543516070909" class="agenda-whatsapp" target="_blank" rel="noopener">
+            <svg class="ico"><use href="icons.svg#ico-whatsapp"/></svg>
+            Abogado 2 · 351 607-0909
+          </a>
+          <a href="https://wa.me/543571620401" class="agenda-whatsapp" target="_blank" rel="noopener">
+            <svg class="ico"><use href="icons.svg#ico-whatsapp"/></svg>
+            Abogado 3 · 357 162-0401
+          </a>
+          <a href="mailto:estudiojuridicovallesyasoc@gmail.com" class="agenda-contact-item">
+            <svg class="ac-icon ico"><use href="icons.svg#ico-mail"/></svg>
+            <div>
+              <span class="ac-name">Email</span>
+              <span class="ac-num">estudiojuridicovallesyasoc@gmail.com</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="agenda-form-wrap">
+        <div class="agenda-form-header">
+          <svg class="form-header-icon ico"><use href="icons.svg#ico-calendar"/></svg>
+          <div>
+            <h3>Reservá tu turno</h3>
+            <p>Completá tus datos y te contactamos a la brevedad.</p>
+          </div>
+        </div>
+
+        <form class="agenda-form" id="agendaForm" novalidate>
+          <div class="af-row">
+            <div class="af-field">
+              <label for="af-nombre">Nombre y apellido *</label>
+              <input type="text" id="af-nombre" placeholder="Ej: María García" required />
+              <span class="af-error" id="err-nombre"></span>
+            </div>
+            <div class="af-field">
+              <label for="af-tel">Teléfono / WhatsApp *</label>
+              <input type="tel" id="af-tel" placeholder="351 000-0000" required />
+              <span class="af-error" id="err-tel"></span>
+            </div>
+          </div>
+          <div class="af-field">
+            <label for="af-email">Correo electrónico *</label>
+            <input type="email" id="af-email" placeholder="correo@ejemplo.com" required />
+            <span class="af-error" id="err-email"></span>
+          </div>
+          <div class="af-field">
+            <label for="af-area">Área de consulta *</label>
+            <select id="af-area" required>
+              <option value="">Seleccioná un área...</option>
+              <option value="familia">Derecho de Familia</option>
+              <option value="sucesorio">Derecho Sucesorio</option>
+              <option value="laboral">Derecho Laboral</option>
+              <option value="penal">Derecho Penal</option>
+              <option value="otro">Otro</option>
+            </select>
+            <span class="af-error" id="err-area"></span>
+          </div>
+          <div class="af-row">
+            <div class="af-field">
+              <label for="af-fecha">Fecha preferida</label>
+              <input type="date" id="af-fecha" />
+            </div>
+            <div class="af-field">
+              <label for="af-modalidad">Modalidad</label>
+              <select id="af-modalidad">
+                <option value="presencial">Presencial</option>
+                <option value="virtual">Virtual (videollamada)</option>
+                <option value="telefonica">Telefónica</option>
+              </select>
+            </div>
+          </div>
+          <div class="af-field">
+            <label for="af-mensaje">Descripción breve del caso</label>
+            <textarea id="af-mensaje" rows="3" placeholder="Contanos brevemente tu situación. Toda la información es confidencial."></textarea>
+          </div>
+          <button type="submit" class="af-submit" id="afSubmit">
+            <span class="af-submit-text">Solicitar turno</span>
+            <span class="af-submit-loader" style="display:none">Enviando...</span>
+          </button>
+        </form>
+
+        <div class="af-success" id="afSuccess" style="display:none">
+          <div class="af-success-icon">
+            <svg class="ico ico-lg"><use href="icons.svg#ico-check"/></svg>
+          </div>
+          <h4>¡Solicitud enviada!</h4>
+          <p>Gracias <span id="afNombre"></span>, nos comunicaremos con vos a la brevedad para confirmar tu turno.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== VALORES ===== -->
+  <section class="valores" id="valores">
+    <div class="container">
+      <div class="valores-grid">
+        <div class="valor-item">
+          <svg class="valor-icon ico"><use href="icons.svg#ico-users"/></svg>
+          <p>TRATO<br>PERSONALIZADO</p>
+        </div>
+        <div class="valor-item">
+          <svg class="valor-icon ico"><use href="icons.svg#ico-shield"/></svg>
+          <p>COMPROMISO Y<br>RESPONSABILIDAD</p>
+        </div>
+        <div class="valor-item">
+          <svg class="valor-icon ico"><use href="icons.svg#ico-scales"/></svg>
+          <p>EXPERIENCIA Y<br>PROFESIONALISMO</p>
+        </div>
+        <div class="valor-item">
+          <svg class="valor-icon ico"><use href="icons.svg#ico-handshake"/></svg>
+          <p>CONFIANZA Y<br>TRANSPARENCIA</p>
+        </div>
+      </div>
+      <div class="valores-tagline">
+        <svg class="tagline-icon ico ico-xs"><use href="icons.svg#ico-scales"/></svg>
+        <span>TE ACOMPAÑAMOS EN CADA PASO LEGAL.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="contacto">
+    <div class="container footer-inner">
+
+      <div class="footer-col footer-col-left">
+        <div class="footer-contact-item">
+          <svg class="footer-icon ico"><use href="icons.svg#ico-location"/></svg>
+          <div>
+            <strong>Arturo M. Bas N° 373</strong>
+            <span>1° piso, Of. 9 – Córdoba, Argentina</span>
+          </div>
+        </div>
+        <div class="footer-contact-item">
+          <svg class="footer-icon ico"><use href="icons.svg#ico-mail"/></svg>
+          <div>
+            <a href="mailto:estudiojuridicovallesyasoc@gmail.com">estudiojuridicovallesyasoc@gmail.com</a>
+          </div>
+        </div>
+        <div class="footer-contact-item">
+          <svg class="footer-icon ico"><use href="icons.svg#ico-instagram"/></svg>
+          <div>
+            <a href="#">estudiojuridicovalles.abogados</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-col footer-col-right">
+        <div class="footer-phone-item">
+          <svg class="phone-icon ico"><use href="icons.svg#ico-phone"/></svg>
+          <div>
+            <span class="phone-name">Abogado 1</span>
+            <span class="phone-number">3516018329</span>
+          </div>
+        </div>
+        <div class="footer-phone-item">
+          <svg class="phone-icon ico"><use href="icons.svg#ico-phone"/></svg>
+          <div>
+            <span class="phone-name">Abogado 2</span>
+            <span class="phone-number">3516070909</span>
+          </div>
+        </div>
+        <div class="footer-phone-item">
+          <svg class="phone-icon ico"><use href="icons.svg#ico-phone"/></svg>
+          <div>
+            <span class="phone-name">Abogado 3</span>
+            <span class="phone-number">3571620401</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-cta-bar">
+      <div class="container">
+        <a href="#agenda" class="footer-cta-btn">
+          <svg class="footer-cta-icon ico"><use href="icons.svg#ico-calendar"/></svg>
+          AGENDÁ TU TURNO
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-copy">
+      <div class="container">
+        <p>© 2026 Abogados & Asociados – Estudio Jurídico. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
